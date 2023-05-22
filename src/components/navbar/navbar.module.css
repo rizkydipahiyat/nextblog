@@ -1,0 +1,77 @@
+.container {
+  position: sticky;
+  z-index: 999;
+  height: 60px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 2px 5px 27px -8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.left {
+  font-size: 35px;
+  color: rgb(26, 180, 26);
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.right > div > img {
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.logout {
+  margin-left: 1rem;
+  padding: 0.4rem 1rem;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: #10c142;
+}
+
+.create {
+  color: #444;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.login {
+  outline: none;
+  border: none;
+  padding: 0.5rem 1.25rem;
+  font-size: 17px;
+  color: #fff;
+  background-color: #10c142;
+  border-radius: 12px;
+}
+
+.dropdown {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: #efefef;
+  padding: 1rem;
+  top: 3.2rem;
+  right: -0.50rem;
+  border-radius: 8px;
+  gap: 1.25rem;
+}
