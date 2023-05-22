@@ -28,6 +28,7 @@ const BlogCard = ({
             Authorization: `Bearer ${session?.user?.accessToken}`,
           },
           method: "PUT",
+          mode: "no-cors",
         }
       );
       if (res.ok) {

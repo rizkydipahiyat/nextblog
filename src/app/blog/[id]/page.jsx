@@ -82,6 +82,7 @@ const BlogDetail = (ctx) => {
           headers: {
             Authorization: `Bearer ${session?.user?.accessToken}`,
           },
+          mode: "no-cors",
           method: "PUT",
         }
       );
